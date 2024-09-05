@@ -29,15 +29,15 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity SUBTRACTOR is
+entity SUBTRACTOR_BLOCK is
     Port ( A : in  STD_LOGIC_VECTOR (3 downto 0);
            B : in  STD_LOGIC_VECTOR (3 downto 0);
            result : out  STD_LOGIC_VECTOR (3 downto 0);
 --           negative : out  STD_LOGIC;
            overflow: out STD_LOGIC);
-end SUBTRACTOR;
+end SUBTRACTOR_BLOCK;
 
-architecture Behavioral of SUBTRACTOR is
+architecture Behavioral of SUBTRACTOR_BLOCK is
 
 component TWOsCOMPLEMENT is
     Port ( A : in  STD_LOGIC_VECTOR (3 downto 0);
