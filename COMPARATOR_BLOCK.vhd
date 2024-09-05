@@ -6,8 +6,7 @@ entity COMPARATOR_BLOCK is
         B: in STD_LOGIC_VECTOR (3 downto 0);
         greater: out STD_LOGIC;
         less: out STD_LOGIC;
-        equal: out STD_LOGIC;
-  );
+        equal: out STD_LOGIC);
 end COMPARATOR_BLOCK;
 
 architecture of COMPARATOR_BLOCK is
