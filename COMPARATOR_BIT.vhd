@@ -2,11 +2,11 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
 entity COMPARATOR_BIT is
-  Port (A: in STD_LOGIC;
-        B: in STD_LOGIC;
-        equal: out STD_LOGIC;
-        greater_than: out STD_LOGIC;
-        less_than: out STD_LOGIC;
+  Port (A : in STD_LOGIC;
+        B : in STD_LOGIC;
+        equal : out STD_LOGIC;
+        greater_than : out STD_LOGIC;
+        less_than : out STD_LOGIC;
   );
   end COMPARATOR_BIT;
 
