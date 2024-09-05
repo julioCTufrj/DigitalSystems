@@ -6,8 +6,7 @@ entity COMPARATOR_BIT is
         B : in STD_LOGIC;
         equal : out STD_LOGIC;
         greater_than : out STD_LOGIC;
-        less_than : out STD_LOGIC;
-  );
+        less_than : out STD_LOGIC);
   end COMPARATOR_BIT;
 
   architecture Behavioral of COMPARATOR_BIT is
